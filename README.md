@@ -36,7 +36,7 @@ Essa é parecida com o exercício 1, você se lembra como resolveu?
 
 Com os personagens de _status_ **Alive** na tela, queremos mostrar mais algumas informações para cada personagem.
 
-No objeto de cada personagem, que é retornado da requisição da API, adicione uma nova propriedade chamada **infos** cujo valor deve ser a concatenação de outras duas informações: "specie - localização.name".
+No objeto de cada personagem, que é retornado da requisição da API, adicione uma nova propriedade chamada **infos** cujo valor deve ser a concatenação de outras duas informações: "specie - location.name".
 
 Para mostrar essa nova chave no card do personagem que está sendo renderizado, vá até o arquivo `CharacterCard.js` e descomente a linha 13. Não se esqueça de desestruturar essa nova informação.
 
